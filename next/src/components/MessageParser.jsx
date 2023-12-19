@@ -13,7 +13,7 @@ const MessageParser = ({ children, actions }) => {
 
         try {
           const response = await fetch(
-            "http://web3-api-dev.dev.com/searchEmail/",
+            "http://web3-api-dev.prodevans.com/searchEmail/",
             {
               method: "POST",
               body: JSON.stringify({ email: emails }),
@@ -65,7 +65,7 @@ const MessageParser = ({ children, actions }) => {
 
         try {
           const response = await fetch(
-            "http://web3-api-dev.dev.com/createUser/",
+            "http://web3-api-dev.prodevans.com/createUser/",
             {
               method: "POST",
                body: JSON.stringify({
@@ -114,7 +114,7 @@ const MessageParser = ({ children, actions }) => {
 
         try {
           const response = await fetch(
-            "http://web3-api-dev.dev.com/createTicket/",
+            "http://web3-api-dev.prodevans.com/createTicket/",
             {
               method: "POST",
               body: JSON.stringify({
